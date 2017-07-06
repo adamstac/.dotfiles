@@ -1,0 +1,68 @@
+[user]
+  name = Adam Stacoviak
+  email = adam@stacoviak.com
+
+[core]
+  autocrlf = input
+  editor = subl -n -w
+  excludesfile = ~/.gitignore
+
+[merge]
+  ff = only
+
+[commit]
+  template = ~/.gitmessage
+
+[push]
+  default = current
+
+[hub]
+  protocol = https
+
+[credential]
+  helper = osxkeychain
+
+[alias]
+  aa = add --all
+  ap = add --patch
+  br = branch
+  ca = commit --amend
+  ci = commit -a -m
+  gc = commit -v
+  co = checkout
+  create-branch = !sh -c 'git push origin HEAD:refs/heads/$1 && git fetch origin && git branch --track $1 origin/$1 && cd . && git checkout $1' -
+  delete-branch = !sh -c 'git push origin :refs/heads/$1 && git remote prune origin && git branch -D $1' -
+  merge-branch = !git checkout master && git merge @{-1}
+  plog = log --pretty=oneline
+  # ---
+  tags = tag
+  branches = branch -a
+  stashes = stash list
+  remotes = remote -v
+  open = checkout
+  back = checkout "-"
+  killbranch = branch -d
+  opps = reset --hard HEAD@{1}
+  # ---
+  history = log --format=format:'%Cgreen%h %Creset• %s (%cN, %ar)'
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = auto
+
+[color "branch"]
+  current = cyan reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green

@@ -1,0 +1,23 @@
+# Unix
+alias ...='../..'
+alias ll='ls -al'
+alias lh='ls -Alh'
+alias ln='ln -v'
+alias mkdir='mkdir -p'
+
+# Open with
+alias md='open $1 -a /Applications/MacDown.app'
+
+# Finder
+alias _show-files="defaults write com.apple.finder AppleShowAllFiles -boolean true && killall Finder"
+alias _hide-files="defaults delete com.apple.finder AppleShowAllFiles && killall Finder"
+
+
+alias reload!='. ~/.zshrc'
+
+# Hotspots
+alias dotfiles='cd ~/.dotfiles'
+alias code='cd ~/Code'
+alias dotcom='cd ~/Code/changelog.com'
+alias weekly='cd ~/Code/weekly'
+alias nightly='cd ~/Code/nightly'
