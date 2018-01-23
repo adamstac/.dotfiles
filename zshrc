@@ -53,14 +53,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
-
-# Set the editor to Sublime Text
-export EDITOR='subl -w'
-
-export PATH="$HOME/.bin:$PATH"
-
-export PATH="/usr/local/bin:$PATH"
-
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - --no-rehash)"
