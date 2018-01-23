@@ -2,7 +2,7 @@
 
 ## Installation
 
-He future Adam -- yea you know you forget a ton of stuff and the next time you read this you'll likely hoping that past you told you how to solve your problems.
+Hey future Adam — yea, you know you forget a ton of stuff and the next time you read this you'll likely be hoping that the past you told you how to solve your problems.
 
 Well, you should install these `.dotfiles` after you've setup [adamstac/laptop](https://github.com/adamstac/laptop). So do that and come back when you're done.
 
