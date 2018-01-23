@@ -3,7 +3,7 @@ export EDITOR='code --wait'
 # Add user directory .bin to path
 export PATH="$HOME/.bin:$PATH"
 
-# Add to path for Homebrew
+# Recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
 # Add Visual Studio Code (code)
