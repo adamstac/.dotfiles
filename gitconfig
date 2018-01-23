@@ -4,7 +4,7 @@
 
 [core]
   autocrlf = input
-  editor = subl -n -w
+  editor = code -n --wait
   excludesfile = ~/.gitignore
 
 [merge]
