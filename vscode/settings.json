@@ -1,0 +1,18 @@
+{    
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.matchBrackets": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "explorer.openEditors.visible": 0,
+    "files.associations": {
+        "*.eex": "html"
+    },
+    "git.autofetch": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Dracula Pro (Van Helsing)"
+}
