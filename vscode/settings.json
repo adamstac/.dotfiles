@@ -1,6 +1,6 @@
 {    
     "editor.cursorStyle": "block",
-    "editor.fontFamily": "'Fira Code'",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.matchBrackets": false,
@@ -14,5 +14,6 @@
     },
     "git.autofetch": true,
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Dracula Pro (Van Helsing)"
+    "workbench.colorTheme": "Dracula Pro (Van Helsing)",
+    "workbench.startupEditor": "newUntitledFile"
 }
